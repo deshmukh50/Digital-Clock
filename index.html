@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock desgin | with 12 hour/ 24hour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+</head>
+<body>
+  
+<div class="digital-clock">
+    <i class="uil uil-ellipsis-v dot-menu-btn" id="active-menu"></i>
+    <i class="uil uil-sun light-toggle"></i>
+    <ul class="dot-meun" id="active-menu">
+        <li class="meun-item" id="active-menu">
+         <span class="clock-fromat-text" id="active-menu">24-hour format</span>
+         <div class="format-switch-btn" id="active-menu" data-format="12"></div>   
+        </li>
+    </ul>
+    <div class="time">
+        <span class="hours">00</span>
+        <span class="dots">:</span>
+        <span class="minutes">00</span>
+        <div class="right-side">
+            <span class="period">AM/PM</span>
+            <span class="seconds">00</span>
+        </div>
+    </div>
+    <div class="calendar">
+     <span class="month-name">Month</span>,
+     <span class="day-name">Day</span>
+     <span class="day-number">00</span>
+     <!--<span class="year">0000</span>-->
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
